@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center">
+          <img
+            src="asset/img/unisma.ac_.id-logo-unisma-malang.png"
+            class="h-8 mr-3"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Unisma</span
+          >
+        </a>
+        <div class="flex md:order-2">
+          <button
+            type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Login
+          </button>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Kelas</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Hubungi Kami</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-white dark:bg-gray-900 pt-32">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+        <h1
+          class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+        >
+          Universitas Islam Malang
+        </h1>
+        <h2 class="mb-5 text-2xl font-bold lg:text-4xl">
+          <i>Open Online Course</i>
+        </h2>
+        <p
+          class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dicta
+          amet sequi velit necessitatibus odit sunt quas non aliquam, repellat
+          nemo minima, consequuntur, molestiae itaque quaerat obcaecati neque
+          temporibus sed.
+        </p>
+        <div
+          class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
+        >
+          <a
+            href="#"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+          >
+            Get Course's
+            <svg
+              aria-hidden="true"
+              class="ml-2 -mr-1 w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          >
+            Learn more
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <div class="container my-24 mx-auto md:px-6">
+      <!-- Section: Design Block -->
+      <section class="mb-32">
+        <div class="flex flex-wrap">
+          <div
+            class="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12"
+          >
+            <p
+              class="mb-6 font-bold uppercase text-primary dark:text-primary-400"
+            >
+              Fitur kami
+            </p>
+            <h2 class="mb-6 text-3xl font-bold">Kelas Online Unggulan</h2>
+
+            <p class="mb-12 text-neutral-500 dark:text-neutral-300">
+              Nunc tincidunt vulputate elit. Mauris varius purus malesuada neque
+              iaculis malesuada. Aenean gravida magna orci, non efficitur est
+              porta id. Donec magna diam.
+            </p>
+          </div>
+
+          <div
+            class="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12"
+          >
+            <div class="flex flex-wrap">
+              <div
+                class="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3"
+              >
+                <div class="flex">
+                  <div class="shrink-0">
+                    <div
+                      class="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        class="h-6 w-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4 grow">
+                    <p class="mb-3 font-bold">Kurikulum Terbaru</p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      Pellentesque mollis, metus nec fringilla aliquam. Donec
+                      consequat orci quis volutpat imperdiet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3"
+              >
+                <div class="flex">
+                  <div class="shrink-0">
+                    <div
+                      class="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        class="h-6 w-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4 grow">
+                    <p class="mb-3 font-bold">Tentor Berpengalaman</p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      Magna lacus iaculis elit, quis pharetra varius. Aenean
+                      lectus ex, placerat id tellus in eros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3"
+              >
+                <div class="flex">
+                  <div class="shrink-0">
+                    <div
+                      class="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        class="h-6 w-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4 grow">
+                    <p class="mb-3 font-bold">Flexibel</p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      Pellentesque varius ex vel consequat quis. Sed mauris ex,
+                      imperdiet sit amet nisl ac, ultrices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3"
+              >
+                <div class="flex">
+                  <div class="shrink-0">
+                    <div
+                      class="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        class="h-6 w-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4 grow">
+                    <p class="mb-3 font-bold">Hemat Biaya</p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      Vestibulum gravida iaculis nisl, vel lobortis eros.
+                      Praesent vulputate lacus bibendum augue.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Design Block -->
+    </div>
+
+    <!-- Featured List Section -->
+    <div class="container my-24 mx-auto md:px-6">
+      <!-- Section: Design Block -->
+      <section class="mb-32 text-center">
+        <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
+          <div class="mb-12 md:mb-0">
+            <h2
+              class="display-5 mb-4 text-4xl font-bold text-primary dark:text-primary-400"
+            >
+              1123
+            </h2>
+            <h5 class="mb-4 text-lg font-medium">Peserta Didik</h5>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              Laudantium totam quas cumque pariatur at doloremque hic quos quia
+              eius
+            </p>
+          </div>
+
+          <div class="mb-12 md:mb-0">
+            <h2
+              class="display-5 mb-4 text-4xl font-bold text-primary dark:text-primary-400"
+            >
+              20+
+            </h2>
+            <h5 class="mb-4 text-lg font-medium">Tentor</h5>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              Eum nostrum fugit numquam, voluptates veniam neque quibusdam ullam
+            </p>
+          </div>
+
+          <div class="mb-12 md:mb-0">
+            <h2
+              class="display-5 mb-4 text-4xl font-bold text-primary dark:text-primary-400"
+            >
+              49
+            </h2>
+            <h5 class="mb-4 text-lg font-medium">Kelas Online</h5>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              Enim cupiditate, minus nulla dolor cumque iure eveniet facere
+              potistas
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Design Block -->
+    </div>
+    <!-- Container for demo purpose -->
+
+    <!-- Kelas Terbaru Section -->
+    <!-- Container for demo purpose -->
+    <div class="container my-24 mx-auto md:px-6">
+      <!-- Section: Design Block -->
+      <section class="mb-32 text-center">
+        <h2 class="mb-12 text-center text-3xl font-bold">Kelas Terbaru</h2>
+
+        <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
+          <div class="mb-6 lg:mb-0">
+            <div
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/018.jpg"
+                class="w-full"
+                alt="Louvre"
+              />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"
+                ></div>
+              </a>
+            </div>
+
+            <h5 class="mb-3 text-lg font-bold">Kalkulus : Pendahuluan</h5>
+            <div
+              class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="mr-2 h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"
+                />
+              </svg>
+              Matematika
+            </div>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+              <small
+                >Published <u>13.01.2022</u> by
+                <a href="#!">Dr. Bintang Bongky</a></small
+              >
+            </p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
+              vulputate. Ut vulputate est non quam dignissim elementum. Donec a
+              ullamcorper diam.
+            </p>
+          </div>
+
+          <div class="mb-6 lg:mb-0">
+            <div
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/032.jpg"
+                class="w-full"
+                alt="Louvre"
+              />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"
+                ></div>
+              </a>
+            </div>
+
+            <h5 class="mb-3 text-lg font-bold">Advance Grammar</h5>
+            <div
+              class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="mr-2 h-4 w-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"
+                />
+              </svg>
+              Bahasa Inggris
+            </div>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+              <small
+                >Published <u>12.01.2022</u> by
+                <a href="#!">Bintang Bonk B.Ed</a></small
+              >
+            </p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet diam
+              orci, nec ornare metus semper sed. Integer volutpat ornare erat
+              sit amet rutrum.
+            </p>
+          </div>
+
+          <div class="mb-0">
+            <div>
+              <div
+                class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/059.jpg"
+                  class="w-full"
+                  alt="Louvre"
+                />
+                <a href="#!">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"
+                  ></div>
+                </a>
+              </div>
+
+              <h5 class="mb-3 text-lg font-bold">Linguistik</h5>
+              <div
+                class="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  class="mr-2 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"
+                  />
+                </svg>
+                Business
+              </div>
+              <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                <small
+                  >Published <u>10.01.2022</u> by
+                  <a href="#!">Bintang Bongky S.Pd M.Pd</a></small
+                >
+              </p>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Curabitur tristique, mi a mollis sagittis, metus felis mattis
+                arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
+                massa volutpat feugiat. Donec.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Design Block -->
+    </div>
+
+    <!-- Banner Section -->
+    <div class="px-6 py-12 text-center md:px-12 lg:text-left">
+      <div
+        class="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl xl:px-32"
+      >
+        <div class="grid items-center lg:grid-cols-2">
+          <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+            <div
+              class="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]"
+            >
+              <figure class="max-w-screen-md mx-auto text-center">
+                <svg
+                  aria-hidden="true"
+                  class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                  viewBox="0 0 24 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <blockquote>
+                  <p
+                    class="text-2xl italic font-medium text-gray-900 dark:text-white text-left"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque beatae ea quam ipsam nobis fugit deleniti error
+                    dolores fuga, quasi ex, ratione atque, magni fugiat!
+                  </p>
+                </blockquote>
+                <figcaption
+                  class="flex items-center justify-center mt-6 space-x-3"
+                >
+                  <img
+                    class="w-6 h-6 rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                    alt="profile picture"
+                  />
+                  <div
+                    class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700"
+                  >
+                    <cite class="pr-3 font-medium text-gray-900 dark:text-white"
+                      >Bintang Bongky</cite
+                    >
+                    <cite class="pl-3 text-sm text-gray-500 dark:text-gray-400"
+                      >Math Educational Lecturer</cite
+                    >
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="md:mb-12 lg:mb-0">
+            <img
+              src="https://tecdn.b-cdn.net/img/new/ecommerce/vertical/004.jpg"
+              class="w-full rounded-lg shadow-lg dark:shadow-black/20"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 pt-24 pb-12">
+        <div class="container">
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+              <h2 class="font-bold text-4xl text-white mb-3">Universitas Islam Malang</h2>
+              <h3 class="font-bold text-2xl mb-2">Open Online Course</h3>
+              <p class="">email@gmail.com</p>
+              <p class=""> Jln. Mayjen Haryono No 193, Malang 65114</p>
+      
+            </div>
+            <div class="w-full px-4 mb-12 md:w-1/3">
+              <h3 class="font-semibold text-xl text-white mb-5">Tentang Kami</h3>
+              <hr class="my-3">
+              <p class="text-slate-300 mt-3 text-justify">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sequi tempora asperiores accusamus nam
+                adipisci non, tempore veniam beatae unde aliquid ducimus voluptatibus? Quae, tempore.
+              </p>
+      
+            </div>
+            <div class="w-full px-4 mb-12 md:w-1/3">
+              <h3 class="font-semibold text-xl text-white mb-5">Link</h3>
+              <ul class="text-slate-300">
+                <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Beranda</a></li>
+                <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Tentang Kami</a></li>
+                <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Kelas</a></li>
+                <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Hubungi Kami</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full pt-10 border-t border-slate-700">
+            <div class="flex items-center text-white justify-center">
+              <div id="media-social" class="pt-2 text-4xl">
+                <!-- Instagram -->
+                <a href="#" class="text-basic hover:text-primary transition duration-300 ease-in-out"><i
+                    class="bx bxl-instagram"></i></a>
+                <!-- Youtube -->
+                <a href="#" class="text-basic hover:text-primary transition duration-300 ease-in-out"><i
+                    class="bx bxl-youtube"></i></a>
+                <!-- Tiktok -->
+                <a href="#" class="text-basic hover:text-primary transition duration-300 ease-in-out"><i
+                    class="bx bxl-tiktok"></i></a>
+                <!-- Whatsapp -->
+                <a href="#" class="text-basic hover:text-primary transition duration-300 ease-in-out"><i
+                    class="bx bxl-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <p class="font-medium text-sm text-slate-500 text-center mt-5">Dibuat oleh Bintang Bongky ❤</p>
+        </div>
+      </footer>
+
+    <!-- Flowbite -->
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <!-- Tw-Element -->
+    <script
+      type="text/javascript"
+      src="node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
+    ></script>
+  </body>
+</html>
